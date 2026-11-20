@@ -1,0 +1,17 @@
+# local run outputs and scratch
+out/
+output/
+*.out
+tmp/
+*.log
+
+# node / editor noise
+node_modules/
+.DS_Store
+*.swp
+
+# secrets and transcripts stay out of the repo
+.env
+wallet.json
+transcripts.tar.gz
+.makefun/credentials
